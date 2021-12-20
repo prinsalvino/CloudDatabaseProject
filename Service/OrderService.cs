@@ -37,9 +37,8 @@ namespace Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
                 logger.LogError(e.Message);
-                throw;
+                return null;
             }
         }
 
