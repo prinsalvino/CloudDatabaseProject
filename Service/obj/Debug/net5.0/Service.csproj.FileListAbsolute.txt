@@ -1,0 +1,17 @@
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\bin\Debug\net5.0\Service.deps.json
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\bin\Debug\net5.0\Service.dll
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\bin\Debug\net5.0\ref\Service.dll
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\bin\Debug\net5.0\Service.pdb
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\bin\Debug\net5.0\DAL.dll
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\bin\Debug\net5.0\Domain.dll
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\bin\Debug\net5.0\DAL.pdb
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\bin\Debug\net5.0\Domain.pdb
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\obj\Debug\net5.0\Service.dll
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\obj\Debug\net5.0\ref\Service.dll
+D:\GitHub\Cloud Database\CloudDatabaseProject\Service\obj\Debug\net5.0\Service.pdb
