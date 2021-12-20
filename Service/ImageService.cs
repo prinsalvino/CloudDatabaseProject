@@ -1,6 +1,7 @@
 ﻿using CloudDatabaseProject.Infrastructure;
 using DAL.RepoInterfaces;
 using Domain;
+using Microsoft.Extensions.Logging;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
 using Service.ServiceInterfaces;
@@ -16,13 +17,15 @@ namespace Service
     public class ImageService : IImageService
     {
         IImageRepository _repository;
+        ILogger logger;
 
         private const string CONTAINERPREFIX = "clouddbstorage";
 
 
-        public ImageService(IImageRepository repository)
+        public ImageService(IImageRepository repository, ILogger logger)
         {
             _repository = repository;
+            this.logger = logger; 
         }
 
         public async Task AddImage(Image image, string ImageToUpload)
@@ -41,7 +44,7 @@ namespace Service
             }
             catch (StorageException ex)
             {
-                //logger.LogError(ex.Message);
+                logger.LogError(ex.Message);
             }
 
             // await container.SetPermissionsAsync(new BlobContainerPermissions { PublicAccess = BlobContainerPublicAccessType.Blob });
@@ -78,7 +81,7 @@ namespace Service
             }
             catch (StorageException ex)
             {
-                //logger.LogError(ex.Message);
+                logger.LogError(ex.Message);
             }
             _repository.Add(image);
         }
